@@ -1,0 +1,397 @@
+*{
+  box-sizing: border-box;
+}
+
+html,body{
+  margin: 0;
+  padding: 2em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+.outlet{
+  position: relative;
+  width: 915px;
+  height: 1052px;
+
+  background: #FFFFFF;
+  border: 1px dashed #7B61FF;
+  border-radius: 5px;
+  margin-right: 2em;
+}
+
+.heading{
+  position: absolute;
+  width: 277px;
+  height: 56px;
+  margin-left: 65px;
+  margin-top: 26px;
+
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+}
+
+.company-name,
+.employee-name,
+.manager-name,
+.text-1,
+.text-3,
+.text-5,
+.edit,
+.edit_label,
+.website-url,
+.industry-name,
+.manager-function-name,
+.text-2,
+.text-4,
+.text-6,
+.assesitive-edit-text,
+.assesitive-edit-label{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  
+  border: 1px solid #C2C8D0;
+  border-radius: 4px;
+  padding: 0 1em;
+}
+
+.company-name{
+  position: absolute;
+  left: 7.1%;
+  right: 57.05%;
+  top: 11.12%;
+  bottom: 83.56%;
+  color: #858585;
+}
+
+.employee-name{
+  position: absolute;
+  left: 7.21%;
+  right: 56.94%;
+  top: 22.53%;
+  bottom: 72.15%;
+
+  color: #2D333A;
+}
+
+
+.employee_label,
+.manager_label,
+.text_3-label,
+.text_5-label,
+.industry-label,
+.manager-function-label,
+.text_4-label,
+.text_6-label{
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  position: absolute;
+  height: 22px;
+  left: 8.51%;
+  top: 21.53%;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #858585;
+  letter-spacing: 0.4px;
+  background-color: white;
+}
+
+.manager-name{
+  position: absolute;
+  left: 7.21%;
+  right: 56.94%;
+  top: 34.6%;
+  bottom: 60.08%;
+  border: 2px solid #007BAD;
+  border-radius: 4px;
+  color: #2D333A;
+}
+
+.manager_label{
+  left: 8.51%;
+  top: 33.6%;
+  color: #007BAD;
+}
+
+.manager-name,
+.employee-name,
+.company-name,
+.text-1,
+.text-3,
+.text-5,
+.edit,
+.website-url,
+.industry-name,
+.manager-function-name,
+.text-2,
+.text-4,
+.text-6,
+.assesitive-edit-text{
+  outline: none;
+}
+
+.text-1,
+.text-3,
+.text-5,
+.edit{
+  position: absolute;
+  left: 7.1%;
+  right: 57.05%;
+  top: 51.52%;
+  bottom: 43.16%;
+
+  border: 1px solid #C2C8D0;
+  border-radius: 4px;
+  color: #858585;
+  padding-right: 5em;
+}
+
+.eye,
+.eye_2,
+.eye_3,
+.eye_4,
+.eye_5,
+.eye_6{
+  cursor: pointer;
+  font-size: 1.5em;
+  position: absolute;
+  color: #858585;
+
+}
+
+.eye{
+  left: 38.1%;
+  top: 53%;
+}
+
+.text-3{
+  left: 7.21%;
+  right: 56.94%;
+  top: 62.93%;
+  bottom: 31.75%;
+  color: #2D333A
+}
+
+.eye_3{
+  left: 38.1%;
+  top: 64.45%;
+}
+
+.text_3-label{
+  left: 8.51%;
+  top: 61.93%;
+}
+
+.text-5{
+  left: 7.21%;
+  right: 56.94%;
+  top: 73.48%;
+  bottom: 21.2%;
+  border: 2px solid #007BAD;
+}
+
+.eye_5{
+  left: 38.1%;
+  top: 74.93%;
+}
+
+.text_5-label{
+  left: 8.51%;
+  top: 72.48%;
+  color: #007BAD;
+}
+
+
+.edit{
+  left: 7.1%;
+  right: 57.05%;
+  top: 88.59%;
+  bottom: 6.08%;
+}
+
+.edit_label,
+.assesitive-edit_label{
+  position: absolute;
+  top: 90%;
+  left: 38.1%;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  color: #007BAD;
+
+}
+
+
+.website,
+.industry,
+.manager-function,
+.assesitive-text-2,
+.assesitive-text-4,
+.assesitive-text-6,
+.assesitive-edit{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  height: 100%;
+
+  position: absolute;
+  left: 54.86%; 
+  right: 9.29%;
+  top: 11.22%;
+  bottom: 81.37%;
+
+}
+
+.website-url{
+  width: 328px;
+  height: 54px;
+  color: #858585;
+}
+
+.assistive{
+  width: 80px;
+  height: 16px;
+  margin-top: 5px;
+  margin-left: 1em;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: #858585;
+}
+
+.industry{
+  left: 54.97%;
+  right: 9.18%;
+  top: 22.50%;
+  bottom: 69.58%;
+}
+
+.industry-name,
+.manager-function-name,
+.text-2,
+.text-4,
+.text-6,
+.assesitive-edit-text{
+  width: 328px;
+  height: 54px;
+  color: #2D333A;
+}
+
+.industry-label{
+  color: #007BAD;
+  top: -1%;
+  left: 4%;
+}
+
+.manager-function{
+  left: 54.97%;
+  right: 9.18%;
+  top: 34.7%;
+  bottom: 57.89%;
+}
+
+.manager-function-name{
+  border: 2px solid #007BAD;
+}
+.manager-function-label,
+.text_4-label,
+.text_6-label{
+  top: -1%;
+  left: 4%;
+  color: #007BAD;
+}
+
+.manager-function >p,
+.assesitive-text-6 >p {
+  color: #007BAD;
+}
+
+.assesitive-text-2{
+  left: 54.86%;
+  right: 9.29%;
+  top: 51.52%;
+  bottom: 41.06%;
+}
+
+.text-2,
+.text-4,
+.text-6{
+  color: #858585;
+}
+
+.eye_2,
+.eye_4,
+.eye_6{
+  left: 90%;
+  top: 1.35%;
+}
+
+.assesitive-text-4{
+  left: 54.86%;
+  right: 9.29%;
+  top: 62.07%;
+  bottom: 30.51%;
+}
+
+.assesitive-text-6{
+  left: 54.86%;
+  right: 9.29%;
+  top: 73.48%;
+  bottom: 19.11%;
+}
+
+.text-6{
+  border-color: #007BAD;
+}
+
+.assesitive-edit{
+  left: 54.86%;
+  right: 9.29%;
+  top: 88.59%;
+  bottom: 3.99%;  
+}
+
+.assesitive-edit-text,
+.text-2,
+.text-4,
+.text-6{
+  padding-right: 5em;
+}
+.assesitive-edit_label{
+  top: 1.5%;
+  left: 88%;
+}
+
+
+@media screen and (max-width: 1440px) {
+  .container{
+    flex-direction: column;
+  }
+
+  .outlet{
+    margin-bottom: 5em;
+  }
+}
+
