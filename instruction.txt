@@ -1,0 +1,6 @@
+You can run this project by simply going to this project at my github:- https://github.com/DevS-01/Account-Creation-Page
+and there you will see a readme file at the bottom which says Site live at, just click on the link and you will be directed to the live site
+of this project.
+
+I have also added the functionality to show or hide text.
+Have a nice day.
